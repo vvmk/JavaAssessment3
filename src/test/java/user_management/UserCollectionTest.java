@@ -115,4 +115,12 @@ public class UserCollectionTest {
         assertNotNull(users.findById(leonId));
         assertNotNull(users.findById(nhuId));
     }
+
+    @Test
+    public void getNextAvailableID() {
+        int expected = users.size() + 1;
+        int actual = users.getNextAvailableIdAndIncrement();
+
+        assertEquals(expected, actual);
+    }
 }
