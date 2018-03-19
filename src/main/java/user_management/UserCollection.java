@@ -10,6 +10,7 @@ import user_management.validation.PasswordTooSimpleException;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.regex.Pattern;
 
 public class UserCollection extends ArrayList<User> {
@@ -96,8 +97,12 @@ public class UserCollection extends ArrayList<User> {
     public UserCollection where(String fieldName, Object value) {
         UserCollection result = new UserCollection();
         Field field = elementContainsField(fieldName);
+
         if (field != null) {
-            for (User u : super.toArray(new User[0])) {
+            field.setAccessible(true);
+            Iterator iterator = super.iterator();
+            while (iterator.hasNext()) {
+                User u = (User) iterator.next();
                 if (fieldValuesMatch(field, u, value)) {
                     result.add(u);
                 }

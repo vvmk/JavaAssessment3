@@ -3,6 +3,7 @@ package parsing_json;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 
 public class ElementCollection extends ArrayList<Element> {
     public ElementCollection() {
@@ -56,9 +57,12 @@ public class ElementCollection extends ArrayList<Element> {
         ElementCollection result = new ElementCollection();
         Field field = elementContainsField(fieldName);
         if (field != null) {
-            for (Element e : super.toArray(new Element[0])) {
+            field.setAccessible(true);
+            Iterator iterator = super.iterator();
+            while (iterator.hasNext()) {
+                Element e = (Element) iterator.next();
                 if (fieldValuesMatch(field, e, value)) {
-                    result.add(e);
+                    result.add( e);
                 }
             }
         }
