@@ -1,5 +1,9 @@
 package user_management;
 
+import user_management.security.Password;
+import user_management.security.UserAuthenticationFailedException;
+import user_management.validation.InvalidEmailException;
+
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -53,8 +57,16 @@ public class UserCollection extends ArrayList<User> {
         }
     }
 
-    public User attemptLogin(String email, String password) {
-        return null;
+    public User attemptLogin(String email, String password) throws UserAuthenticationFailedException {
+        User u = findByEmail(email);
+        if (u != null) {
+            Password hash = new Password(password);
+            if (u.getPassword().equals(hash)) {
+                return u;
+            } else
+                throw new UserAuthenticationFailedException("Invalid Password");
+        } else
+            throw new UserAuthenticationFailedException("Email not found");
     }
 
     public int createUser(String name, String email, String password) {
