@@ -7,7 +7,6 @@ import user_management.validation.EmailNotAvailableException;
 import user_management.validation.InvalidEmailException;
 import user_management.validation.PasswordTooSimpleException;
 
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
@@ -32,39 +31,24 @@ public class UserCollection extends ArrayList<User> {
         lastId = c.size();
     }
 
-    private static Field elementContainsField(String fieldName) {
-        try {
-            return User.class.getDeclaredField(fieldName);
-        } catch (NoSuchFieldException nsfe) {
-            return null;
-        }
-    }
-
-    private static boolean fieldValuesMatch(Field checkField, Object objectWithValue, Object valueToMatch) {
-        try {
-            return checkField.get(objectWithValue).equals(valueToMatch);
-        } catch (IllegalAccessException iae) {
-            iae.printStackTrace();
-            return false;
-        }
-    }
-
     public User findById(int id) {
-        try {
-            return where("id", id).get(0);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
+        Iterator iterator = super.iterator();
+        while (iterator.hasNext()) {
+            User u = (User) iterator.next();
+            if (u.getId() == id)
+                return u;
         }
+        return null;
     }
 
     public User findByEmail(String email) {
-        try {
-            return where("email", email).get(0);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
+        Iterator iterator = super.iterator();
+        while (iterator.hasNext()) {
+            User u = (User) iterator.next();
+            if (u.getEmail().equalsIgnoreCase(email))
+                return u;
         }
+        return null;
     }
 
     public User attemptLogin(String email, String password) throws UserAuthenticationFailedException {
@@ -94,23 +78,6 @@ public class UserCollection extends ArrayList<User> {
         return nextId;
     }
 
-    public UserCollection where(String fieldName, Object value) {
-        UserCollection result = new UserCollection();
-        Field field = elementContainsField(fieldName);
-
-        if (field != null) {
-            field.setAccessible(true);
-            Iterator iterator = super.iterator();
-            while (iterator.hasNext()) {
-                User u = (User) iterator.next();
-                if (fieldValuesMatch(field, u, value)) {
-                    result.add(u);
-                }
-            }
-        }
-        return result;
-    }
-
     /**
      * The password provided has less than 8 characters
      * The password provided has no upper case letters
@@ -123,6 +90,7 @@ public class UserCollection extends ArrayList<User> {
         return p.matcher(plaintext_password).matches();
     }
 
+    //TODO: account for eventual removals
     public int getNextAvailableIdAndIncrement() {
         return ++lastId;
     }
