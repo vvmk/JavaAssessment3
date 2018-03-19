@@ -14,21 +14,17 @@ import java.util.regex.Pattern;
 
 public class UserCollection extends ArrayList<User> {
     EmailValidator validator = EmailValidator.getInstance();
-    private int lastId;
 
     public UserCollection() {
         super();
-        lastId = 0;
     }
 
     public UserCollection(int initialCapacity) {
         super(initialCapacity);
-        lastId = 0;
     }
 
     public UserCollection(Collection<? extends User> c) {
         super(c);
-        lastId = c.size();
     }
 
     public User findById(int id) {
