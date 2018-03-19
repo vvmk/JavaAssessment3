@@ -3,27 +3,27 @@ package parsing_json;
 import java.util.ArrayList;
 
 public class Element {
-    private String name;
-    private String appearance;
-    private Double atomic_mass;
-    private Double boil;
-    private String category;
-    private String color;
-    private Double density;
-    private String discovered_by;
-    private Double melt;
-    private Double molar_heat;
-    private String named_by;
-    private Integer number;
-    private Integer period;
-    private String phase;
-    private String source;
-    private String spectral_image;
-    private String summary;
-    private String symbol;
-    private Integer xpos;
-    private Integer ypos;
-    private ArrayList<Integer> shells;
+    public String name;
+    public String appearance;
+    public Double atomic_mass;
+    public Double boil;
+    public String category;
+    public String color;
+    public Double density;
+    public String discovered_by;
+    public Double melt;
+    public Double molar_heat;
+    public String named_by;
+    public Integer number;
+    public Integer period;
+    public String phase;
+    public String source;
+    public String spectral_image;
+    public String summary;
+    public String symbol;
+    public Integer xpos;
+    public Integer ypos;
+    public ArrayList<Integer> shells;
 
 
 public Element(String name, String appearance, Double atomicMass, Double boil, String category, String color, Double density, String discoveredBy, Double melt, Double molarHeat, String namedBy, Integer number, Integer period, String phase, String source, String spectralImage, String summary, String symbol, Integer xpos, Integer ypos, ArrayList<Integer> shells) {
