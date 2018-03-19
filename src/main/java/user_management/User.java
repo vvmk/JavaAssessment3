@@ -59,7 +59,7 @@ public class User {
 
     @Override
     public String toString() {
-        return String.format("%10s - %-30s", name, email);
+        return String.format("%s - %s", name, email);
     }
 
     @Override

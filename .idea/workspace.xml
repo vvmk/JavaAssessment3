@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b251bf67-16a4-44e6-a935-c4ff37513592" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/user_management/security/Authenticator.java" afterPath="$PROJECT_DIR$/src/main/java/user_management/security/Authenticator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user_management/User.java" afterPath="$PROJECT_DIR$/src/main/java/user_management/User.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,12 +82,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/user_management/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="177">
+              <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#775#776#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#1143#1144#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
+                <element signature="e#1704#1705#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +141,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Authenticator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Authenticator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/user_management/security/Authenticator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -178,8 +204,8 @@
         <option value="$PROJECT_DIR$/src/main/java/user_management/UserCollection.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/user_management/security/Password.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user_management/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/user_management/security/Authenticator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/user_management/User.java" />
       </list>
     </option>
   </component>
@@ -362,7 +388,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AuthenticatorTest.testAuthenticate">
+  <component name="RunManager" selected="JUnit.user_management in assessment3">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -484,18 +510,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="user_management.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="assessment3" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="user_management" />
-      <option name="MAIN_CLASS_NAME" value="user_management.UserTest" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -509,15 +530,20 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
+    <configuration name="user_management in assessment3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="user_management.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="assessment3" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
+      <option name="PACKAGE_NAME" value="user_management" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -570,19 +596,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.UserTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UserCollectionInitializerTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserCollectionTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PasswordTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AuthenticatorTest.testAuthenticate" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UserCollectionInitializerTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserCollectionTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PasswordTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AuthenticatorTest.testAuthenticate" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.user_management in assessment3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AuthenticatorTest.testAuthenticate" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PasswordTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserCollectionTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UserCollectionInitializerTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.user_management in assessment3" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AuthenticatorTest.testAuthenticate" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PasswordTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserCollectionTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserCollectionInitializerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -600,7 +626,7 @@
       <option name="presentableId" value="Default" />
       <updated>1521465793124</updated>
       <workItem from="1521465795640" duration="4074000" />
-      <workItem from="1521470770878" duration="6844000" />
+      <workItem from="1521470770878" duration="6929000" />
     </task>
     <servers />
   </component>
@@ -617,12 +643,6 @@
     <history-entry file="AuthenticatorTest_testAuthenticate - 2018.03.19 at 12h 45m 57s.xml">
       <configuration name="AuthenticatorTest.testAuthenticate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ElementCollectionInitializerTest_and_2_more - 2018.03.19 at 12h 03m 23s.xml">
-      <configuration name="ElementCollectionInitializerTest and 2 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ElementCollectionInitializerTest_and_2_more - 2018.03.19 at 12h 05m 03s.xml">
-      <configuration name="ElementCollectionInitializerTest and 2 more" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PasswordTest - 2018.03.19 at 12h 42m 27s.xml">
       <configuration name="PasswordTest" configurationId="JUnit" />
     </history-entry>
@@ -635,13 +655,18 @@
     <history-entry file="UserTest - 2018.03.19 at 12h 13m 43s.xml">
       <configuration name="UserTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="user_management_in_assessment3 - 2018.03.19 at 12h 46m 35s.xml">
+      <configuration name="user_management in assessment3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="user_management_in_assessment3 - 2018.03.19 at 12h 47m 19s.xml">
+      <configuration name="user_management in assessment3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10918000" />
+    <option name="totallyTimeSpent" value="11003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1051,14 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user_management/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/users.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1101,6 +1118,40 @@
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user_management/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
