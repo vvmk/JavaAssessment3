@@ -3,7 +3,6 @@ package user_management;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import org.apache.commons.io.IOUtils;
-import parsing_json.ElementCollection;
 
 import java.lang.reflect.Type;
 import java.util.List;

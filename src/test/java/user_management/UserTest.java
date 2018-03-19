@@ -4,7 +4,8 @@ import org.junit.Before;
 import org.junit.Test;
 import user_management.security.Password;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class UserTest {
     private User user;

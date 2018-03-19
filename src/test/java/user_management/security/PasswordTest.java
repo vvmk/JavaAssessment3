@@ -1,9 +1,8 @@
 package user_management.security;
 
 import org.junit.Test;
-import user_management.security.Password;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class PasswordTest {
 

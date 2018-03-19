@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class ElementTest {
     private Element element;
@@ -33,7 +33,9 @@ public class ElementTest {
                 "H",
                 1,
                 1,
-                new ArrayList<Integer>() {{add(1);}}
+                new ArrayList<Integer>() {{
+                    add(1);
+                }}
         );
 
     }
@@ -95,12 +97,12 @@ public class ElementTest {
 
     @Test
     public void getNumber() {
-        assertEquals(1, (int)element.getNumber());
+        assertEquals(1, (int) element.getNumber());
     }
 
     @Test
     public void getPeriod() {
-        assertEquals(1, (int)element.getPeriod());
+        assertEquals(1, (int) element.getPeriod());
     }
 
     @Test
@@ -130,12 +132,12 @@ public class ElementTest {
 
     @Test
     public void getXpos() {
-        assertEquals(1, (int)element.getXpos());
+        assertEquals(1, (int) element.getXpos());
     }
 
     @Test
     public void getYpos() {
-        assertEquals(1, (int)element.getYpos());
+        assertEquals(1, (int) element.getYpos());
     }
 
     @Test

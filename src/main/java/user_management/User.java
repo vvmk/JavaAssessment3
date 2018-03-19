@@ -41,12 +41,12 @@ public class User {
         return password;
     }
 
-    public void setPassword(String rawPassword) {
-        this.password = new Password(rawPassword);
-    }
-
     public void setPassword(Password password) {
         this.password = password;
+    }
+
+    public void setPassword(String rawPassword) {
+        this.password = new Password(rawPassword);
     }
 
     public String getEmail() {

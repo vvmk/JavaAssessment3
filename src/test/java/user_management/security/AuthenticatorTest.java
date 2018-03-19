@@ -3,11 +3,11 @@ package user_management.security;
 import org.junit.Test;
 import user_management.User;
 import user_management.UserCollectionInitializer;
-import static user_management.security.Authenticator.authenticate;
 
 import java.io.IOException;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
+import static user_management.security.Authenticator.authenticate;
 
 public class AuthenticatorTest {
 

@@ -24,7 +24,8 @@ public class ElementCollectionInitializer {
     }
 
     private static List<Element> getElementsListFromRawData(String rawData) {
-        Type collectionType = new TypeToken<List<Element>>(){}.getType();
+        Type collectionType = new TypeToken<List<Element>>() {
+        }.getType();
         return gson.fromJson(rawData, collectionType);
     }
 
