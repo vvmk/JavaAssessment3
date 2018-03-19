@@ -5,9 +5,8 @@ import java.util.ArrayList;
 public class ElementCollection extends ArrayList<Element> {
 
     public Element findByAtomicNumber(int atomic_number) {
-        super.trimToSize();
         for (Element e : super.toArray(new Element[0])) {
-            if (e.getNumber() == atomic_number)
+            if (e.getNumber().equals(atomic_number))
                 return e;
         }
         return null;
