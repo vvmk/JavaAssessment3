@@ -1,5 +1,6 @@
 package user_management;
 
+import user_management.security.Authenticator;
 import user_management.security.Password;
 import user_management.security.UserAuthenticationFailedException;
 import user_management.validation.InvalidEmailException;
@@ -60,8 +61,7 @@ public class UserCollection extends ArrayList<User> {
     public User attemptLogin(String email, String password) throws UserAuthenticationFailedException {
         User u = findByEmail(email);
         if (u != null) {
-            Password hash = new Password(password);
-            if (u.getPassword().equals(hash)) {
+            if (Authenticator.authenticate(u, password)) {
                 return u;
             } else
                 throw new UserAuthenticationFailedException("Invalid Password");
@@ -70,8 +70,19 @@ public class UserCollection extends ArrayList<User> {
     }
 
     public int createUser(String name, String email, String password) {
-        return 0;
+        // Validate unique userid
+            //validate userid
+        // validate email
+        // validate password
+
+        // if no exceptions
+            // find next available id
+            // create new user with supplied info
+            // return created user id
+        return -1;
     }
+
+
 
     public UserCollection where(String fieldName, Object value) {
         UserCollection result = new UserCollection();

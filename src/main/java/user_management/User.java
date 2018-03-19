@@ -5,10 +5,10 @@ import user_management.security.Password;
 import java.util.Objects;
 
 public class User {
-    private String name;
-    private int id;
-    private Password password;
-    private String email;
+    public String name;
+    public int id;
+    public Password password;
+    public String email;
 
     public User(int id, String name, String email, Password password) {
         this.id = id;
@@ -41,12 +41,12 @@ public class User {
         return password;
     }
 
-    public void setPassword(Password password) {
-        this.password = password;
-    }
-
     public void setPassword(String rawPassword) {
         this.password = new Password(rawPassword);
+    }
+
+    public void setPassword(Password password) {
+        this.password = password;
     }
 
     public String getEmail() {
