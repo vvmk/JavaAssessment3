@@ -5,43 +5,44 @@ import java.util.ArrayList;
 public class Element {
     private String name;
     private String appearance;
-    private Double atomicMass;
+    private Double atomic_mass;
     private Double boil;
     private String category;
     private String color;
     private Double density;
-    private String discoveredBy;
+    private String discovered_by;
     private Double melt;
-    private Double molarHeat;
-    private String namedBy;
+    private Double molar_heat;
+    private String named_by;
     private Integer number;
     private Integer period;
     private String phase;
     private String source;
-    private String spectralImage;
+    private String spectral_image;
     private String summary;
     private String symbol;
     private Integer xpos;
     private Integer ypos;
     private ArrayList<Integer> shells;
 
-    public Element(String name, String appearance, Double atomicMass, Double boil, String category, String color, Double density, String discoveredBy, Double melt, Double molarHeat, String namedBy, Integer number, Integer period, String phase, String source, String spectralImage, String summary, String symbol, Integer xpos, Integer ypos, ArrayList<Integer> shells) {
+
+public Element(String name, String appearance, Double atomicMass, Double boil, String category, String color, Double density, String discoveredBy, Double melt, Double molarHeat, String namedBy, Integer number, Integer period, String phase, String source, String spectralImage, String summary, String symbol, Integer xpos, Integer ypos, ArrayList<Integer> shells) {
         this.name = name;
         this.appearance = appearance;
-        this.atomicMass = atomicMass;
+        this.atomic_mass = atomicMass;
         this.boil = boil;
         this.category = category;
         this.color = color;
         this.density = density;
-        this.discoveredBy = discoveredBy;
+        this.discovered_by = discoveredBy;
         this.melt = melt;
-        this.molarHeat = molarHeat;
-        this.namedBy = namedBy;
+        this.molar_heat = molarHeat;
+        this.named_by = namedBy;
         this.number = number;
         this.period = period;
         this.phase = phase;
         this.source = source;
-        this.spectralImage = spectralImage;
+        this.spectral_image = spectralImage;
         this.summary = summary;
         this.symbol = symbol;
         this.xpos = xpos;
@@ -57,8 +58,8 @@ public class Element {
         return appearance;
     }
 
-    public Double getAtomicMass() {
-        return atomicMass;
+    public Double getAtomic_mass() {
+        return atomic_mass;
     }
 
     public Double getBoil() {
@@ -77,20 +78,20 @@ public class Element {
         return density;
     }
 
-    public String getDiscoveredBy() {
-        return discoveredBy;
+    public String getDiscovered_by() {
+        return discovered_by;
     }
 
     public Double getMelt() {
         return melt;
     }
 
-    public Double getMolarHeat() {
-        return molarHeat;
+    public Double getMolar_heat() {
+        return molar_heat;
     }
 
-    public String getNamedBy() {
-        return namedBy;
+    public String getNamed_by() {
+        return named_by;
     }
 
     public Integer getNumber() {
@@ -109,8 +110,8 @@ public class Element {
         return source;
     }
 
-    public String getSpectralImage() {
-        return spectralImage;
+    public String getSpectral_image() {
+        return spectral_image;
     }
 
     public String getSummary() {
