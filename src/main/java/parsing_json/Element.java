@@ -1,5 +1,7 @@
 package parsing_json;
 
+import java.util.ArrayList;
+
 public class Element {
     private String name;
     private String appearance;
@@ -21,7 +23,31 @@ public class Element {
     private String symbol;
     private Integer xpos;
     private Integer ypos;
-    private Integer[] shells;
+    private ArrayList<Integer> shells;
+
+    public Element(String name, String appearance, Double atomicMass, Double boil, String category, String color, Double density, String discoveredBy, Double melt, Double molarHeat, String namedBy, Integer number, Integer period, String phase, String source, String spectralImage, String summary, String symbol, Integer xpos, Integer ypos, ArrayList<Integer> shells) {
+        this.name = name;
+        this.appearance = appearance;
+        this.atomicMass = atomicMass;
+        this.boil = boil;
+        this.category = category;
+        this.color = color;
+        this.density = density;
+        this.discoveredBy = discoveredBy;
+        this.melt = melt;
+        this.molarHeat = molarHeat;
+        this.namedBy = namedBy;
+        this.number = number;
+        this.period = period;
+        this.phase = phase;
+        this.source = source;
+        this.spectralImage = spectralImage;
+        this.summary = summary;
+        this.symbol = symbol;
+        this.xpos = xpos;
+        this.ypos = ypos;
+        this.shells = shells;
+    }
 
     public String getName() {
         return name;
@@ -103,7 +129,7 @@ public class Element {
         return ypos;
     }
 
-    public Integer[] getShells() {
+    public ArrayList<Integer> getShells() {
         return shells;
     }
 }
