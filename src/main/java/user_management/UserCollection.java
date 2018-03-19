@@ -90,8 +90,10 @@ public class UserCollection extends ArrayList<User> {
         return p.matcher(plaintext_password).matches();
     }
 
-    //TODO: account for eventual removals
     public int getNextAvailableIdAndIncrement() {
-        return ++lastId;
+        for (int i = 1; ; i++) {
+            if (findById(i) == null)
+                return i;
+        }
     }
 }

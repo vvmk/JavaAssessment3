@@ -64,7 +64,7 @@ public class ElementCollection extends ArrayList<Element> {
             while (iterator.hasNext()) {
                 Element e = (Element) iterator.next();
                 if (fieldValuesMatch(field, e, value)) {
-                    result.add( e);
+                    result.add(e);
                 }
             }
         }

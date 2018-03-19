@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b251bf67-16a4-44e6-a935-c4ff37513592" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" afterPath="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user_management/User.java" afterPath="$PROJECT_DIR$/src/main/java/user_management/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user_management/UserCollection.java" afterPath="$PROJECT_DIR$/src/main/java/user_management/UserCollection.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,15 +22,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserCollection.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserCollection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/user_management/UserCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="318">
+              <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3131#3132#0" expanded="true" />
-                <element signature="e#3162#3163#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,45 +37,18 @@
       <file leaf-file-name="UserCollectionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/user_management/UserCollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Password.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/user_management/security/Password.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ElementCollection.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ElementCollection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PasswordTooSimpleException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/user_management/validation/PasswordTooSimpleException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="58" lean-forward="false" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+            <state relative-caret-position="246">
+              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -135,8 +109,8 @@
         <option value="$PROJECT_DIR$/src/test/java/user_management/UserCollectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/user_management/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsing_json/Element.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user_management/UserCollection.java" />
         <option value="$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/user_management/UserCollection.java" />
       </list>
     </option>
   </component>
@@ -309,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.parsing_json in assessment3">
+  <component name="RunManager" selected="JUnit.All in assessment3">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -520,10 +494,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.parsing_json in assessment3" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.user_management in assessment3" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserCollectionTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in assessment3" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in assessment3" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.parsing_json in assessment3" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.user_management in assessment3" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserCollectionTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.AuthenticatorTest.testAuthenticate" />
       </list>
     </recent_temporary>
@@ -547,29 +521,29 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_assessment3 - 2018.03.19 at 13h 32m 06s.xml">
+    <history-entry file="All_in_assessment3 - 2018.03.19 at 16h 40m 55s.xml">
       <configuration name="All in assessment3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_assessment3 - 2018.03.19 at 13h 34m 04s.xml">
+    <history-entry file="All_in_assessment3 - 2018.03.19 at 16h 41m 23s.xml">
       <configuration name="All in assessment3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_assessment3 - 2018.03.19 at 13h 35m 32s.xml">
+    <history-entry file="All_in_assessment3 - 2018.03.19 at 16h 42m 05s.xml">
       <configuration name="All in assessment3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_assessment3 - 2018.03.19 at 14h 25m 35s.xml">
+    <history-entry file="All_in_assessment3 - 2018.03.19 at 16h 43m 05s.xml">
       <configuration name="All in assessment3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserCollectionTest - 2018.03.19 at 15h 04m 55s.xml">
-      <configuration name="UserCollectionTest" configurationId="JUnit" />
+    <history-entry file="All_in_assessment3 - 2018.03.19 at 16h 43m 17s.xml">
+      <configuration name="All in assessment3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_assessment3 - 2018.03.19 at 16h 43m 28s.xml">
+      <configuration name="All in assessment3" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserCollectionTest - 2018.03.19 at 15h 05m 08s.xml">
       <configuration name="UserCollectionTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserCollectionTest - 2018.03.19 at 15h 05m 47s.xml">
       <configuration name="UserCollectionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="parsing_json_in_assessment3 - 2018.03.19 at 14h 22m 15s.xml">
-      <configuration name="parsing_json in assessment3" configurationId="JUnit" />
     </history-entry>
     <history-entry file="parsing_json_in_assessment3 - 2018.03.19 at 16h 26m 05s.xml">
       <configuration name="parsing_json in assessment3" configurationId="JUnit" />
@@ -579,7 +553,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18848000" />
+    <option name="totallyTimeSpent" value="19744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="877" extended-state="6" />
@@ -624,7 +598,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -740,8 +714,6 @@
           <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3131#3132#0" expanded="true" />
-            <element signature="e#3162#3163#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -987,6 +959,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -994,6 +967,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,21 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user_management/security/Password.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/user_management/security/UserAuthenticationFailedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1156,23 +1115,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/user_management/UserCollectionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/user_management/security/Password.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user_management/UserCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3131#3132#0" expanded="true" />
-            <element signature="e#3162#3163#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="246">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,11 +1146,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parsing_json/ElementCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/user_management/UserCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/user_management/UserCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
