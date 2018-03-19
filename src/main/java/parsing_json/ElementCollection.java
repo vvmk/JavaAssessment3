@@ -1,8 +1,20 @@
 package parsing_json;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 public class ElementCollection extends ArrayList<Element> {
+    public ElementCollection() {
+        super();
+    }
+
+    public ElementCollection(int initialCapacity) {
+        super(initialCapacity);
+    }
+
+    public ElementCollection(Collection<? extends Element> c) {
+        super(c);
+    }
 
     public Element findByAtomicNumber(int atomic_number) {
         for (Element e : super.toArray(new Element[0])) {
