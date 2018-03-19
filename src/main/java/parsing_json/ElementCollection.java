@@ -36,21 +36,23 @@ public class ElementCollection extends ArrayList<Element> {
     }
 
     public Element findByAtomicNumber(int atomic_number) {
-        try {
-            return where("number", atomic_number).get(0);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
+        Iterator iterator = super.iterator();
+        while (iterator.hasNext()) {
+            Element e = (Element) iterator.next();
+            if (e.getNumber().equals(atomic_number))
+                return e;
         }
+        return null;
     }
 
     public Element findByName(String name) {
-        try {
-            return where("name", name).get(0);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
+        Iterator iterator = super.iterator();
+        while (iterator.hasNext()) {
+            Element e = (Element) iterator.next();
+            if (e.getName().equals(name))
+                return e;
         }
+        return null;
     }
 
     public ElementCollection where(String fieldName, Object value) {
